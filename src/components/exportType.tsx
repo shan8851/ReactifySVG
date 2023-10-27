@@ -1,5 +1,5 @@
 import React, { type Dispatch, type SetStateAction } from 'react';
-import { type ExportType } from '../page';
+import { ExportType } from '~/types';
 
 type Props = {
   selectedExport: ExportType;
@@ -17,26 +17,26 @@ export const ExportTypeSelector = ({ selectedExport, setSelectedExport }:Props) 
           type="radio"
           className="form-radio h-6 w-6 text-black"
           value="default"
-          checked={selectedExport === 'default'}
-          onChange={() => setSelectedExport('default')}
+          checked={selectedExport === ExportType.DEFAULT}
+          onChange={() => setSelectedExport(ExportType.DEFAULT)}
         />
         <label htmlFor="default" className="ml-3 block text-lg font-medium">
-          export default
+          Default export
         </label>
       </div>
 
       <div className="flex items-center">
         <input
-          id="const"
+          id="named"
           name="exportType"
           type="radio"
           className="form-radio h-6 w-6 text-black"
-          value="const"
-          checked={selectedExport === 'const'}
-          onChange={() => setSelectedExport('const')}
+          value="named"
+          checked={selectedExport === ExportType.NAMED}
+          onChange={() => setSelectedExport(ExportType.NAMED)}
         />
-        <label htmlFor="const" className="ml-3 block text-lg font-medium">
-          export const
+        <label htmlFor="named" className="ml-3 block text-lg font-medium">
+          Named export
         </label>
       </div>
       </div>

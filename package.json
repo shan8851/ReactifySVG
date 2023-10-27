@@ -14,6 +14,9 @@
   "dependencies": {
     "@prisma/client": "^5.1.1",
     "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-prettier": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
     "@t3-oss/env-nextjs": "^0.7.0",
     "@tanstack/react-query": "^4.32.6",
     "@trpc/client": "^10.37.1",
@@ -25,6 +28,7 @@
     "react": "18.2.0",
     "react-ace": "^10.1.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
     "superjson": "^1.13.1",
     "zod": "^3.22.4"
   },

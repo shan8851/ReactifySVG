@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiBuymeacoffee } from 'react-icons/si';
+// import { SiBuymeacoffee } from 'react-icons/si';
 import { BsGithub } from 'react-icons/bs';
 
 export const Footer = () => {
@@ -12,10 +12,10 @@ export const Footer = () => {
             Give us a star!
             <BsGithub />
           </a>
-          <a href="https://www.buymeacoffee.com/asamshan" className="flex items-center gap-2" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://www.buymeacoffee.com/asamshan" className="flex items-center gap-2" target="_blank" rel="noopener noreferrer">
             Like what I do? Buy me a coffee!
             <SiBuymeacoffee style={{ color: 'white' }} />
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>

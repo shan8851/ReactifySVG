@@ -1,6 +1,5 @@
-import { postRouter } from "~/server/api/routers/post";
 import { createTRPCRouter } from "~/server/api/trpc";
-import { svgRouter } from "./routers/svg";
+import { svgRouter } from "~/server/api/routers/svg";
 
 /**
  * This is the primary router for your server.
@@ -8,7 +7,6 @@ import { svgRouter } from "./routers/svg";
  * All routers added in /api/routers should be manually added here.
  */
 export const appRouter = createTRPCRouter({
-  post: postRouter,
   svg: svgRouter,
 });
 

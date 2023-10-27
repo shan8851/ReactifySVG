@@ -2,7 +2,7 @@ import React, { type Dispatch, type SetStateAction } from 'react';
 import { ComponentNameInput } from "./coponentName";
 import { ExportTypeSelector } from "./exportType";
 import { Cog } from './cog';
-import { type ExportType } from '../page';
+import { type ExportType } from '~/types';
 
 type Props = {
   componentName: string;
