@@ -26,6 +26,7 @@ const [componentName, setComponentName] = useState<string>('');
   const { refetch: refetchCount } = api.svg.getCount.useQuery();
 const transformSVG = (svgString: string, componentName: string, exportType: ExportType) => {
    setSvgState(SvgState.LOADING);
+   setJsx('');
    transformSvg.mutate({ svgString, exportType, componentName}, {
     // eslint-disable-next-line @typescript-eslint/no-misused-promises
     onSuccess: async (response) => {
