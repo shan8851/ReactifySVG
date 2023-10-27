@@ -1,38 +1,42 @@
 # ReactifySVG
 
-ReactifySVG is super easy to use and intuitive tool for converting SVGs into React Components.
+ReactifySVG is a super easy-to-use and intuitive tool that converts SVGs into React Components using the power of [SVGR](https://react-svgr.com/).
 
-Check it out [here](https://reactifysvg.xyz/)
+👉 Check it out [here](https://reactifysvg.xyz/)
 
 ## Features
-Convert SVG to React components.
-Select between default export or named export.
-Easy-to-use interface.
-Open-source and community-driven.
+- **SVG to React**: Seamlessly convert SVGs into React components.
+- **Export Flexibility**: Choose between default export or named export.
+- **User-Friendly Interface**: A smooth and intuitive UI for easy conversions.
+- **Open-Source & Community-Driven**: Be a part of the journey; your contributions matter!
 
 ## Upcoming Features
-After forever never shipping my side projects I deceided to be early with RactifySVG but I have plenty planned for the future:
+I've started with the MVP of ReactifySVG and have a roadmap full of exciting features:
 
-- SVG Preview: See a visual representation of your SVG directly.
-- Add ability to drag and drop SVG files.
-- Support for styling frameworks: Integration with Tailwind and other CSS frameworks.
-- TypeScript support: Generate TypeScript React components.
+- **SVG Preview**: Get a visual representation of your SVG before conversion.
+- **Drag & Drop**: Upload SVGs easily with drag-and-drop functionality.
+- **Styling Frameworks Integration**: We're aiming to integrate with popular CSS frameworks like Tailwind.
+- **TypeScript Support**: For those who love strong typing, we'll soon support TypeScript React component generation.
 
-## How to use
+## How to Use
 
-It's easy, visit [ReactifySVG.xyz](https://reactifysvg.xyz/) and paste your SVG content in the left panel. Configure your export options and copy the generated JSX from the right panel.
+1. Visit [ReactifySVG.xyz](https://reactifysvg.xyz/)
+2. Paste your SVG content into the left panel.
+3. Configure your export preferences.
+4. Copy the generated JSX from the right panel.
+5. Done! 🎉
 
 ## Contribute
 
-I am all about sharing, so if you notice any issues, want to see a feature implemented, or want to help out, please feel free to open an issue or submit a pull request.
+I believe in the power of community. If you spot issues, have feature requests, or just want to lend a hand, I welcome your contributions.
 
-## How to Contribute
+### How to Contribute
 
-- Fork the repository.
-- Create a new branch for your feature or bugfix.
-- Make your changes.
-- Submit a pull request.
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Implement your changes.
+4. Submit a pull request.
 
 ## Feedback
 
-Not ready to contribute but have an idea or found a bug? Let me know! Just create an issue and I will get to it as soon as I can.
+Got an idea or found an issue? Your feedback is invaluable! Open an issue, and I'll attend to it as soon as possible.
