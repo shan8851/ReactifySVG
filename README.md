@@ -1,28 +1,38 @@
-# Create T3 App
+# ReactifySVG
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+ReactifySVG is super easy to use and intuitive tool for converting SVGs into React Components.
 
-## What's next? How do I make an app with this?
+Check it out [here](https://reactifysvg.xyz/)
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Features
+Convert SVG to React components.
+Select between default export or named export.
+Easy-to-use interface.
+Open-source and community-driven.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Upcoming Features
+After forever never shipping my side projects I deceided to be early with RactifySVG but I have plenty planned for the future:
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- SVG Preview: See a visual representation of your SVG directly.
+- Add ability to drag and drop SVG files.
+- Support for styling frameworks: Integration with Tailwind and other CSS frameworks.
+- TypeScript support: Generate TypeScript React components.
 
-## Learn More
+## How to use
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+It's easy, visit [ReactifySVG.xyz](https://reactifysvg.xyz/) and paste your SVG content in the left panel. Configure your export options and copy the generated JSX from the right panel.
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Contribute
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+I am all about sharing, so if you notice any issues, want to see a feature implemented, or want to help out, please feel free to open an issue or submit a pull request.
 
-## How do I deploy this?
+## How to Contribute
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- Fork the repository.
+- Create a new branch for your feature or bugfix.
+- Make your changes.
+- Submit a pull request.
+
+## Feedback
+
+Not ready to contribute but have an idea or found a bug? Let me know! Just create an issue and I will get to it as soon as I can.
