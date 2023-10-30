@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="flex justify-between items-center px-4">
         <span>Built with ♡ by <a className="font-bold text-white" href='https://www.shan8851.com/'>@Shan8851</a></span>
         <div className="flex gap-4 justify-end">
-          <a href="YOUR_GITHUB_REPO_LINK" className="flex gap-2 items-center" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/shan8851/ReactifySVG" className="flex gap-2 items-center" target="_blank" rel="noopener noreferrer">
             Give us a star!
             <BsGithub />
           </a>
